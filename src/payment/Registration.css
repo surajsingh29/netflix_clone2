@@ -1,0 +1,93 @@
+.registration{
+    box-sizing: border-box;
+}
+
+.registration__navBar{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid rgb(214, 213, 213);
+}
+
+.registrationPage__logo{
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    padding-left: 20px;
+    left: 0;
+    height: auto;
+    width: 200px;
+}
+
+.registration__signIn{
+    position: absolute;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-right: 40px;
+    right: 0;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.registration__signIn:hover{
+    text-decoration: underline;
+}
+
+/* Body */
+
+.registration__body{
+    position: absolute;
+    top: 40%;
+    width: 90%;
+    margin: 0 5%;
+    text-align: center;
+}
+
+.registration__Step1Section{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registration__Step1Logo img{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.registration__Step1Title{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.registration__Step1Description h2{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 29px;
+    color: rgb(31, 31, 31);
+    margin-bottom: 20px;
+}
+
+.registration__Step1Description h3{
+    margin-top: 15px;
+    font-weight: 500;
+    color: rgb(31, 31, 31);
+    margin-bottom: 20px;
+}
+
+.registration__step1Button button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 14px;
+    font-size: 1.5rem;
+    border: none;
+    outline-width: 0;
+    background-color: #e50910;
+    color: white;
+    border-radius: 5px;
+}
